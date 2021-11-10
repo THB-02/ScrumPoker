@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eseo.projetAndroid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo_fire"
+        android:label="Scrum Poker"
+        android:roundIcon="@mipmap/ic_logo_fire"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.MainActivity"
+            android:theme="@style/AppTheme.NoTitle"> <!-- DISABLE TOOLBAR IN MAIN ACTIVITY-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.ProfileActivity"
+            android:label="@string/toolbar_title_login_activity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".ui.MainActivity"/>
+        <activity android:name=".ui.chat.MentorChatActivity"
+            android:label="@string/toolbar_title_mentor_chat_activity"
+            android:parentActivityName=".ui.MainActivity"/>
+        <activity android:name=".ui.groups.GroupsActivity"
+            android:label="@string/toolbar_title_groups_activity"
+            android:parentActivityName=".ui.MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.planningPoker.PlanningPokerActivity"
+            android:label="@string/toolbar_title_planning_poker"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".ui.groups.GroupsActivity"/>/>
+        <activity android:name=".ui.addGroup.AddGroupActivity"
+            android:label="Ajouter des salons"
+            android:parentActivityName=".ui.groups.GroupsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.createGroup.CreateGroupActivity"
+            android:label="Créer un salon"
+            android:parentActivityName=".ui.groups.GroupsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.usSummary.UsSummaryActivity"
+            android:label="Récapitulatif des US"
+            android:parentActivityName=".ui.planningPoker.PlanningPokerActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

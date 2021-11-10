@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "766377739221",
+    "project_id": "scrumpoker-d3f57",
+    "storage_bucket": "scrumpoker-d3f57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766377739221:android:5c66fbc54820def51a735c",
+        "android_client_info": {
+          "package_name": "com.eseo.projetAndroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766377739221-vee3eki0bb35ne9omvpoioljr64b5ugl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eseo.projetAndroid",
+            "certificate_hash": "6b6aca48ea82000fa3de83b205fc52fa394e96e1"
+          }
+        },
+        {
+          "client_id": "766377739221-2mlub49bip49l28j0v179640iogv89u1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg22HFbQ_AxVK-h3mFqAWTyq3rB1YQFLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766377739221-2mlub49bip49l28j0v179640iogv89u1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

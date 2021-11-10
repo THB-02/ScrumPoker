@@ -8,13 +8,14 @@
     android:layout_height="match_parent">
 
     <!-- IMAGE VIEW FIREBASE OC -->
+
+    <!-- TITLE FIREBASE OC -->
     <ImageView
         android:layout_width="209dp"
         android:layout_height="201dp"
         android:layout_margin="@dimen/default_large_margin"
-        android:background="@drawable/ic_logo_fire" />
+        android:background="@drawable/ic_logo_scrum_poker"/>
 
-    <!-- TITLE FIREBASE OC -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

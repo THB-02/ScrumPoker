@@ -39,7 +39,7 @@ public CollectionReference getGroupCollection(){
 }
 
 public Query getAllRooms(){
-    return  FirebaseFirestore.getInstance().collection("salons").whereEqualTo("members."+userManager.getCurrentUser().getUid().toString(), userManager.getCurrentUser().getUid()).orderBy("dateCreated", Query.Direction.DESCENDING);
+    return  FirebaseFirestore.getInstance().collection("salons").whereEqualTo("members."+userManager.getCurrentUser().getUid(), userManager.getCurrentUser().getUid()).orderBy("dateCreated", Query.Direction.DESCENDING);
 }
 
 

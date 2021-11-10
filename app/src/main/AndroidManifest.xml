@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_logo_fire"
+        android:icon="@mipmap/ic_logo_scrum_poker"
         android:label="Scrum Poker"
-        android:roundIcon="@mipmap/ic_logo_fire"
+        android:roundIcon="@mipmap/ic_logo_scrum_poker"
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">

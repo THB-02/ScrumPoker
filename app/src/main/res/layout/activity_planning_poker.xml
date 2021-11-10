@@ -32,7 +32,7 @@
             android:layout_height="107dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/ic_chat_message_background"
+            android:background="@drawable/ic_item_group"
             android:padding="10dp"
             android:text="@string/nom_us" />
 
@@ -156,6 +156,7 @@
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:layout_marginTop="10dp"
+            android:background="@drawable/round_rectangle_blue"
             android:text="@string/btnModifReponse" />
 
         <Button
@@ -163,6 +164,7 @@
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:layout_marginTop="10dp"
+            android:background="@drawable/round_rectangle_blue"
             android:text="US suivante" />
 
         <androidx.recyclerview.widget.RecyclerView

@@ -74,11 +74,7 @@
             android:layout_height="5dp"
             android:layout_marginTop="12dp"
             android:background="@drawable/ic_item_group"
-            android:gravity="top"
-            android:orientation="vertical"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2">
+            android:orientation="vertical">
 
 
         </LinearLayout>

@@ -154,6 +154,6 @@ public class PlanningPokerRepository {
     public Query getAllUS(String salon){
         return FirebaseFirestore.getInstance().collection("salons")
                 .document(salon)
-                .collection("ListeUS");
+                .collection("ListeUS").orderBy("dateCreated", Query.Direction.ASCENDING);
     }
 }

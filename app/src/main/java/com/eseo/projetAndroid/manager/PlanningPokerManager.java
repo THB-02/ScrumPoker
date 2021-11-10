@@ -1,9 +1,6 @@
 package com.eseo.projetAndroid.manager;
 
-import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
-import com.eseo.projetAndroid.models.US;
-import com.eseo.projetAndroid.repository.ChatRepository;
 import com.eseo.projetAndroid.repository.PlanningPokerRepository;
 
 public class PlanningPokerManager {

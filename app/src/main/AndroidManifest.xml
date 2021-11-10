@@ -21,9 +21,6 @@
             android:label="@string/toolbar_title_login_activity"
             android:screenOrientation="portrait"
             android:parentActivityName=".ui.MainActivity"/>
-        <activity android:name=".ui.chat.MentorChatActivity"
-            android:label="@string/toolbar_title_mentor_chat_activity"
-            android:parentActivityName=".ui.MainActivity"/>
         <activity android:name=".ui.groups.GroupsActivity"
             android:label="@string/toolbar_title_groups_activity"
             android:parentActivityName=".ui.MainActivity"
@@ -31,7 +28,7 @@
         <activity android:name=".ui.planningPoker.PlanningPokerActivity"
             android:label="@string/toolbar_title_planning_poker"
             android:screenOrientation="portrait"
-            android:parentActivityName=".ui.groups.GroupsActivity"/>/>
+            android:parentActivityName=".ui.groups.GroupsActivity"/>
         <activity android:name=".ui.addGroup.AddGroupActivity"
             android:label="Ajouter des salons"
             android:parentActivityName=".ui.groups.GroupsActivity"

@@ -1,41 +1,22 @@
 package com.eseo.projetAndroid.ui.createGroup;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 
 import androidx.annotation.Nullable;
 
-import com.firebase.ui.auth.ErrorCodes;
-import com.firebase.ui.auth.IdpResponse;
 import com.google.android.material.snackbar.Snackbar;
 
-import com.google.firebase.firestore.EventListener;
-import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.FirebaseFirestoreException;
-import com.google.firebase.firestore.QueryDocumentSnapshot;
-import com.google.firebase.firestore.QuerySnapshot;
-import com.google.firebase.firestore.SetOptions;
-import com.eseo.projetAndroid.R;
 import com.eseo.projetAndroid.databinding.ActivityCreateGroupBinding;
-import com.eseo.projetAndroid.manager.ChatManager;
 import com.eseo.projetAndroid.manager.GroupManager;
 import com.eseo.projetAndroid.manager.UserManager;
 
-import com.eseo.projetAndroid.models.Salon;
-import com.eseo.projetAndroid.models.User;
 import com.eseo.projetAndroid.ui.BaseActivity;
-import com.eseo.projetAndroid.ui.groups.GroupsActivity;
-
-import java.util.HashMap;
-import java.util.Map;
 
 public class CreateGroupActivity extends BaseActivity<ActivityCreateGroupBinding> {
 
     private UserManager userManager = UserManager.getInstance();
     private GroupManager groupManager = GroupManager.getInstance();
-    private ChatManager chatManager = ChatManager.getInstance();
 
 
 

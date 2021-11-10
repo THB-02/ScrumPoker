@@ -75,6 +75,7 @@
     <string name="TextColonneUS">Nom de l\'US</string>
     <string name="TextColonneNote">Point US</string>
     <string name="text_list_us">Récapitulatif</string>
+    <string name="text_view_summary">Ce récapitulatif ne contient pour le moment aucune us …</string>
 
 
 </resources>

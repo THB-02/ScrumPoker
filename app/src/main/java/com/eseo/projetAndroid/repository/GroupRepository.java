@@ -1,22 +1,11 @@
 package com.eseo.projetAndroid.repository;
 
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.CollectionReference;
-import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
-import com.google.firebase.firestore.QuerySnapshot;
-import com.google.firebase.firestore.SetOptions;
 import com.eseo.projetAndroid.manager.UserManager;
-import com.eseo.projetAndroid.models.Message;
 import com.eseo.projetAndroid.models.Salon;
-import com.eseo.projetAndroid.models.User;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -37,7 +26,7 @@ public static GroupRepository getInstance() {
     if (result != null) {
         return result;
     }
-    synchronized(ChatRepository.class) {
+    synchronized(GroupRepository.class) {
         if (instance == null) {
             instance = new GroupRepository();
         }

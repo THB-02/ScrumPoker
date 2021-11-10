@@ -14,7 +14,6 @@ import com.google.android.material.snackbar.Snackbar;
 import com.eseo.projetAndroid.R;
 import com.eseo.projetAndroid.databinding.ActivityMainBinding;
 import com.eseo.projetAndroid.manager.UserManager;
-import com.eseo.projetAndroid.ui.chat.MentorChatActivity;
 import com.eseo.projetAndroid.ui.groups.GroupsActivity;
 
 import java.util.Collections;
@@ -83,10 +82,6 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> {
         }
 
     // Launch Mentor Chat Activity
-    private void startMentorChatActivity(){
-        Intent intent = new Intent(this, MentorChatActivity.class);
-        startActivity(intent);
-    }
 
     // Launch Mentor Chat Activity
     private void startGroupActivity(){

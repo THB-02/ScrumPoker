@@ -59,7 +59,7 @@ public class GroupsActivity extends BaseActivity<ActivityGroupsBinding> implemen
     // Configure RecyclerView
     private void configureRecyclerView(String chatName) {
         //Track current chat name
-        this.currentChatName = chatName;
+
         //Configure Adapter & RecyclerView
         this.groupAdapter = new GroupAdapter(
                 generateOptionsForAdapter(groupManager.getAllRooms()),

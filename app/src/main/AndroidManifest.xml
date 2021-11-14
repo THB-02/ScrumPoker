@@ -39,6 +39,10 @@
         <activity android:name=".ui.usSummary.UsSummaryActivity"
             android:label="Récapitulatif des US"
             android:screenOrientation="portrait"/>
+
+        <activity android:name=".ui.chat.MentorChatActivity"
+            android:label="Messagerie du salon"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

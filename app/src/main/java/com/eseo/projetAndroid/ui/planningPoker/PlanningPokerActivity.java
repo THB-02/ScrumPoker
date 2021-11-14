@@ -19,6 +19,7 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
+import com.eseo.projetAndroid.ui.chat.MentorChatActivity;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestoreException;
@@ -96,6 +97,11 @@ public class PlanningPokerActivity extends BaseActivity<ActivityPlanningPokerBin
         }
         if(item.getItemId()==R.id.list_us){
             UsSummaryActivity();
+
+            return true;
+        }
+        if(item.getItemId()==R.id.chat){
+            startMentorChatActivity();
 
             return true;
         }
@@ -348,5 +354,12 @@ public class PlanningPokerActivity extends BaseActivity<ActivityPlanningPokerBin
         Intent intent = new Intent(this, UsSummaryActivity.class);
         intent.putExtra("salon",salon);
         startActivity(intent);
+    }
+
+    private void startMentorChatActivity(){
+        Intent intent = new Intent(this, MentorChatActivity.class);
+        intent.putExtra("salon",salon);
+        startActivity(intent);
+
     }
 }

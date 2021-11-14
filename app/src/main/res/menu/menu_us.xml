@@ -9,6 +9,10 @@
         android:id="@+id/copy_menu"
         android:title="@string/text_copy_button"
         app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/chat"
+        android:title="@string/menu_chat"
+        app:showAsAction="ifRoom" />
 
 
 </menu>

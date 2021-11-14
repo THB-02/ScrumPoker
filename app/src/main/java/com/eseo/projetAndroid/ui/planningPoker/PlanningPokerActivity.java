@@ -84,7 +84,6 @@ public class PlanningPokerActivity extends BaseActivity<ActivityPlanningPokerBin
         //on affiche que si c'est le scrum master
         if(!userManager.getCurrentUser().getUid().equals(scrum)){
             menu.findItem(R.id.copy_menu).setVisible(false);
-            menu.findItem(R.id.list_us).setVisible(false);
         }
         return true;
     }
